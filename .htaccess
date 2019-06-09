@@ -1,0 +1,11 @@
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^getMovie\?(.*)|getMovie$ api/api.php?$1 [QSA]
+RewriteRule ^getBook\?(.*)|getBook$ api/api.php?$1 [QSA]
+RewriteRule ^login\?(.*)|login$ api/login.php?$1 [QSA,L]
+
+
+
