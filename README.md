@@ -1,6 +1,6 @@
 # api-example
 
-API endpoint example. Get movie's info from https://www.omdbapi.com or book's info from https://openlibrary.org?
+API endpoint example. Get movie's info from https://www.omdbapi.com or book's info from https://openlibrary.org
 
 ### Prerequisites
 
