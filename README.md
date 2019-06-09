@@ -17,7 +17,7 @@ api-example/login?username=restapiuser&password=password666
 
 ### Search results
 
-/getMovie?
+# /getMovie?
 title: 't='
 year: 'y='
 plot: 'plot=short/full'
@@ -25,7 +25,7 @@ plot: 'plot=short/full'
 api-example/getMovie?jwt=token_here&t=good+will+hunting
 ```
 
-/getBook?
+# /getBook?
 isbn: 'isbn='
 ```
 api-example/getBook?jwt=token_here&isbn=9780553573404
